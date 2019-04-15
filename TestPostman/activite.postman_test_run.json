@@ -1,0 +1,242 @@
+{
+	"id": "3051b539-3d83-47fa-8324-b1a608f953f0",
+	"name": "activite",
+	"allTests": [],
+	"timestamp": "2019-04-15T19:47:13.462Z",
+	"collection_id": "69f4f5b9-6a46-4d0b-aaf1-e5b8fbc3d617",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "69f4f5b9-6a46-4d0b-aaf1-e5b8fbc3d617",
+		"name": "activite",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"1c40cece-a71e-4bed-b750-df3a755f89fe",
+			"a46c9b60-d874-400b-bbeb-4fa9e4d488ea",
+			"faf236bb-0de0-48d7-b08c-39142e8d3e7b",
+			"a26b82aa-6697-438f-b664-20f23686dccb",
+			"652b224f-2116-41dd-ba96-b07170df1117"
+		],
+		"folders_order": [],
+		"owner": "5905688",
+		"permissions": {},
+		"favorite": false,
+		"shared": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "localhost:9090/Produits",
+			"id": "1c40cece-a71e-4bed-b750-df3a755f89fe",
+			"url": "localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"28"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "28",
+			"totalRequestTime": "28",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:9090/Produits/2",
+			"id": "a46c9b60-d874-400b-bbeb-4fa9e4d488ea",
+			"url": "localhost:9090/Produits/2",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"12"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "12",
+			"totalRequestTime": "12",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:9090/Produits",
+			"id": "faf236bb-0de0-48d7-b08c-39142e8d3e7b",
+			"url": "localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 402,
+				"name": "Payment Required",
+				"detail": {
+					"name": "Payment Required",
+					"detail": "Reserved for future use. The original intention was that this code might be used as part of some form of digital cash or micropayment scheme, but that has not happened, and this code is not usually used. As an example of its use, however, Apple's MobileMe service generates a 402 error (\"httpStatusCode:402\" in the Mac OS X Console log) if the MobileMe account is delinquent."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"23"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "23",
+			"totalRequestTime": "23",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:9090/AdminProduits",
+			"id": "a26b82aa-6697-438f-b664-20f23686dccb",
+			"url": "localhost:9090/AdminProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"12"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "12",
+			"totalRequestTime": "12",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:9090/trierProduits",
+			"id": "652b224f-2116-41dd-ba96-b07170df1117",
+			"url": "localhost:9090/trierProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"19"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "19",
+			"totalRequestTime": "19",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 94,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "localhost:9090/Produits",
+			"id": "1c40cece-a71e-4bed-b750-df3a755f89fe",
+			"url": "localhost:9090/Produits",
+			"time": "2019-04-15T19:47:13.462Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:9090/Produits/2",
+			"id": "a46c9b60-d874-400b-bbeb-4fa9e4d488ea",
+			"url": "localhost:9090/Produits/2",
+			"time": "2019-04-15T19:47:13.462Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:9090/Produits",
+			"id": "faf236bb-0de0-48d7-b08c-39142e8d3e7b",
+			"url": "localhost:9090/Produits",
+			"time": "2019-04-15T19:47:13.462Z",
+			"responseCode": {
+				"code": 402,
+				"name": "Payment Required",
+				"detail": {
+					"name": "Payment Required",
+					"detail": "Reserved for future use. The original intention was that this code might be used as part of some form of digital cash or micropayment scheme, but that has not happened, and this code is not usually used. As an example of its use, however, Apple's MobileMe service generates a 402 error (\"httpStatusCode:402\" in the Mac OS X Console log) if the MobileMe account is delinquent."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:9090/AdminProduits",
+			"id": "a26b82aa-6697-438f-b664-20f23686dccb",
+			"url": "localhost:9090/AdminProduits",
+			"time": "2019-04-15T19:47:13.462Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:9090/trierProduits",
+			"id": "652b224f-2116-41dd-ba96-b07170df1117",
+			"url": "localhost:9090/trierProduits",
+			"time": "2019-04-15T19:47:13.462Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
