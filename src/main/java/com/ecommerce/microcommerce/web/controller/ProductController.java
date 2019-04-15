@@ -116,4 +116,10 @@ public class ProductController {
         }
         return difference;
     }
+
+    // Récupérer la liste des produits puis trier par ordre alphabetique
+    @GetMapping(value = "/trierProduits")
+    public List<Product> trierProduitsParOrdreAlphabetique() {
+        return productDao.findAllByOrderByNom();
+    }
 }
